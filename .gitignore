@@ -23,3 +23,14 @@ node_modules/
 *.sqlite
 
 .DS_Store
+
+# Terraform Wordpress stuff
+mykey-pair
+mykey-pair.pub
+.terraform
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+user_data(exec).tpl
+banner.txt
+wordpress_tf.sh
